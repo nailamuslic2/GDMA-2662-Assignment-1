@@ -65,21 +65,7 @@
 
 /* ----- HEADER ----- */
 
-img {
-    width: 100px;
-    display: inline-block;
-}
 
-header .row {
-    position: absolute;
-}
-
-
-/* ----- NAV ----- */
-
-nav li {
-    display: inline-block;
-}
 
 /* ----- ELEMENT-BOX ----- */
 
