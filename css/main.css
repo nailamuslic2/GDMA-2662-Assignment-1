@@ -50,9 +50,16 @@ h1 {
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
+}
+
+#hero h1 {
     margin-bottom: 0px;
     margin-top: 16px;
     padding-top: 250px;
+}
+
+#benefits h1 {
+    margin-top: 0px;
 }
 
 /*--------------------------------------------------------------
@@ -68,6 +75,7 @@ h1 {
 
 .row {
     display: flex;
+    justify-content: space-between;
 }
 
 
@@ -75,7 +83,7 @@ h1 {
     6.0 - COMPONENTS
 -------------------------------------------------------------- */
 
-/* ----- HOME HEADER ----- */
+/* ----- TOP NAV ----- */
 
 
 header .row {
@@ -113,7 +121,7 @@ header nav a:hover {
 
 /* ----- HOME HERO IMAGE ----- */
 
-body > section {
+#hero {
     background: url("../img/bg-laptop.jpg") no-repeat;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -123,32 +131,35 @@ body > section {
     text-align: center;
 }
 
-body > section p {
+#hero p,
+#benefits p {
     font-size: 30px;
     font-weight: 300;
     color: #fff;
-    padding-bottom: 100px;
     text-transform: uppercase;
     margin-top: 0px;
 }
 
-
-/* ----- DIMENSIONS -----*/
-
-
-
-/* ----- WARNING ----- */
+#hero p {
+    padding-bottom: 100px;
+}
 
 
+/* ----- BENEFITS -----*/
 
-/* ----- BACKGROUND IMAGES -----*/
+#benefits {
+    background-color: #51CCF8;
+}
 
+#benefits p {
+    margin-bottom: 0px;
+    padding-top: 100px;
+    margin-top: 15px;
+}
 
-/* ----- ALT TEXT -----*/
-
-
-
-/* ----- FOOTER -----*/
+#benefits h1 {
+    padding-bottom: 50px;
+}
 
 
 /*--------------------------------------------------------------
